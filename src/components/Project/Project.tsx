@@ -24,7 +24,7 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Intelligent planning</h3>
+              <h3>Intelliflo planning</h3>
               <p>
               Intelliflo planning is a cash modeling web application that visually engages with clients ,gives them confidence in their financial life choices, and experiences the benefits for their business.
               </p>
