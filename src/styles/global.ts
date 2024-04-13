@@ -121,4 +121,7 @@ export const GlobalStyle = createGlobalStyle`
   .ant-timeline{
     color: #FFFF;
   }
+  .timeline-item-wrapper{
+    color: #FFFF;
+  }
 `
