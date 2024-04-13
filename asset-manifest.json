@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.039bf95e.css",
-    "main.js": "/Portfolio/static/js/main.77a68f3f.js",
+    "main.js": "/Portfolio/static/js/main.f5011c8a.js",
     "static/media/Basil.png": "/Portfolio/static/media/Basil.ecc600f0bb3563ee73c0.png",
     "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/QBCV-BasilJose-5495.pdf": "/Portfolio/static/media/QBCV-BasilJose-5495.3c11feba8d8d9811f117.pdf",
@@ -14,16 +14,16 @@
     "index.html": "/Portfolio/index.html",
     "static/media/github.svg": "/Portfolio/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
     "static/media/external-link.svg": "/Portfolio/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
+    "static/media/outlook.svg": "/Portfolio/static/media/outlook.92ac5cbd10e6bd1668e04e427c65056e.svg",
     "static/media/html-icon.svg": "/Portfolio/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
-    "static/media/Gmail_Logo.svg": "/Portfolio/static/media/Gmail_Logo.fd27dc1b2a16c00121cb5bea39f41e59.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/microsoft.svg": "/Portfolio/static/media/microsoft.c10ce0677146f99ec3cc3b7454e76674.svg",
     "static/media/azure.svg": "/Portfolio/static/media/azure.ff5a9fe776f2b480d91804ecc122fe3b.svg",
     "main.039bf95e.css.map": "/Portfolio/static/css/main.039bf95e.css.map",
-    "main.77a68f3f.js.map": "/Portfolio/static/js/main.77a68f3f.js.map"
+    "main.f5011c8a.js.map": "/Portfolio/static/js/main.f5011c8a.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.77a68f3f.js"
+    "static/js/main.f5011c8a.js"
   ]
 }
