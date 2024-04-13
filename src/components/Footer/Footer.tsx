@@ -3,7 +3,7 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
-import GmailLogo from '../../assets/Gmail_Logo.svg'
+import outlookLogo from '../../assets/outlook.svg'
 
 export function Footer() {
   return (
@@ -41,11 +41,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="mailto:basiljose12345@gmail.com"
+          href="mailto:basiljose_95@outlook.com"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={GmailLogo} alt="G-mail" />
+          <img src={outlookLogo} alt="G-mail" />
         </a>
       </div>
     </Container>
