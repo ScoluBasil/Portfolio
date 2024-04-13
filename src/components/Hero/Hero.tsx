@@ -7,6 +7,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import outlookLogo from '../../assets/outlook.svg'
+import { Experience } from "../Experience/Experience"
 
 export function Hero() {
   return (
@@ -24,13 +25,16 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">Over 5 Years of Experience in Software engineering, mainly focussed on Microsoft technologies.</p>
         </ScrollAnimation>
-        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
-        </ScrollAnimation> */}
+
+        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+          <h4>Work Experience</h4>
+        </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
+        <Experience/> 
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={1.2 * 1000}>
+        <div className="social-media">
+      <a
         href="https://www.linkedin.com/in/basiljose95"
         target="_blank"
         rel="noreferrer"
@@ -66,6 +70,8 @@ export function Hero() {
           <img src={Illustration} alt="Ilustração" />
         </ScrollAnimation>
       </div>
+
+     
     </Container>
   )
 }

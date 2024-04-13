@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding-top: 15%;
+  padding-top: 10%;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
@@ -19,6 +19,10 @@ export const Container = styled.section`
       margin: 1rem 0;
     }
 
+    h4{
+      color:var(--pink);
+      margin: 1rem 0;
+    }
     
     p.small-resume {
       margin-bottom: 2rem;

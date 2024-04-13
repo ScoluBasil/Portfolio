@@ -19,6 +19,9 @@ export const GlobalStyle = createGlobalStyle`
       .logo{
         color: var(--black);
       }
+      .ant-timeline{
+        color: var(--black);
+      }
 
       header.header-fixed{
         transition: 0.5s;
@@ -114,5 +117,8 @@ export const GlobalStyle = createGlobalStyle`
     // &::first-letter{
     //   color: var(--green);
     // }
+  }
+  .ant-timeline{
+    color: #FFFF;
   }
 `
