@@ -22,6 +22,9 @@ export const GlobalStyle = createGlobalStyle`
       .ant-timeline{
         color: var(--black);
       }
+      .ant-timeline-item-tail{
+        background-color: var(--black);
+      }
 
       header.header-fixed{
         transition: 0.5s;
@@ -123,5 +126,8 @@ export const GlobalStyle = createGlobalStyle`
   }
   .timeline-item-wrapper{
     color: #FFFF;
+  }
+  .ant-timeline-item-tail{
+    background-color: #FFFF;
   }
 `
