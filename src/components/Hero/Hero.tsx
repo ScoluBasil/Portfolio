@@ -7,7 +7,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import outlookLogo from '../../assets/outlook.svg'
-import { Experience } from "../Experience/Experience"
+import BasilJose from "../../assets/Basil.png";
 
 export function Hero() {
   return (
@@ -60,7 +60,7 @@ export function Hero() {
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <img src={BasilJose} alt="Ilustração" />
         </ScrollAnimation>
       </div>
 

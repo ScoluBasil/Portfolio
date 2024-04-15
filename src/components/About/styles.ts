@@ -58,7 +58,7 @@ export const Container = styled.section`
    }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 960px) {
     .about-image {
       max-width: 100%;
       margin-top: 4rem;

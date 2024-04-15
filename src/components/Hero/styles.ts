@@ -63,9 +63,7 @@ export const Container = styled.section`
       }
     }
     
-    .hero-image{
-      display: none;
-    }
+
   }
 
   @media(max-width: 600px){

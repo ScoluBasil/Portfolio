@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import BasilJose from "../../assets/Basil.png";
+import AboutMe from "../../assets/AboutMe.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -32,7 +32,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={BasilJose} alt="Basil Jose" />
+          <img src={AboutMe} alt="Basil Jose" />
         </ScrollAnimation>
       </div>
     </Container>
