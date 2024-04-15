@@ -34,12 +34,12 @@ export function Header() {
           <NavHashLink smooth to="#about" onClick={closeMenu}>
             About me
           </NavHashLink>
+          <NavHashLink smooth to="#Experience" onClick={closeMenu}>
+            Experience
+          </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
             Project
           </NavHashLink>
-          {/* <NavHashLink smooth to="#Certifications" onClick={closeMenu}>
-            Certifications
-          </NavHashLink> */}
           <a href={Resume} download className="button">
             Resume
           </a>

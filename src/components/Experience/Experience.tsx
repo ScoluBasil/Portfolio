@@ -1,9 +1,10 @@
 import { Timeline } from "antd";
-import azureIcon from "../../assets/azure.svg";
 import AT from "../../assets/AT.svg";
 import OT from "../../assets/OT.svg";
 import QB from "../../assets/QB.svg";
 import XE from "../../assets/XE.svg";
+import { Container } from "./styles";
+import ScrollAnimation from "react-animate-on-scroll";
 interface TimelineItemProps {
   label: string;
   icon?: string;
@@ -62,8 +63,24 @@ export function Experience()
   ];
   
   return (
-    <Timeline mode="left" style={{ marginTop: '1rem', marginLeft: '-42rem' }}>
-      {timelineItems.map((item) => (TimelineItem(item)))}
-    </Timeline>
+    <Container id="Experience">
+      <div className="Experience-text">
+        <ScrollAnimation animateIn="fadeInLeft">
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: 0, padding: 0 }}>
+          <h2>Work Expereience</h2>
+        </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft">
+         <div style={{ margin: 0, padding: 0 }}>
+         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: 0, padding: 0 }}>
+          <Timeline mode="left" style={{ marginTop: '1rem' }}>
+            {timelineItems.map((item) => (TimelineItem(item)))}
+          </Timeline>
+          </div>
+        </div>
+        </ScrollAnimation>
+      </div>
+    </Container>
+
     )
 }

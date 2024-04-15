@@ -25,13 +25,6 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">Over 5 Years of Experience in Software engineering, mainly focussed on Microsoft technologies.</p>
         </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <h4>Work Experience</h4>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-        <Experience/> 
-        </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1.2 * 1000}>
         <div className="social-media">
       <a

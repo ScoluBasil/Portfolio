@@ -130,4 +130,5 @@ export const GlobalStyle = createGlobalStyle`
   .ant-timeline-item-tail{
     background-color: #FFFF;
   }
+  
 `

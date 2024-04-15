@@ -11,6 +11,7 @@ import graphQlIcon from "../../assets/graphQl.svg";
 import sqlIcon from "../../assets/Sql.svg";
 import microsoftIcon from "../../assets/microsoft.svg";
 import { Contact } from "../Contact/Contact";
+import { Experience } from "../Experience/Experience";
 
 export function Main() {
   return (
@@ -226,10 +227,11 @@ export function Main() {
           }
         }}
       />
-      <Hero></Hero>
-      <About></About>
-      <Project></Project>
-      <Contact></Contact>
+      <Hero/>
+      <About/>
+      <Experience/>
+      <Project/>
+      <Contact/>
     </Container>
   );
 }

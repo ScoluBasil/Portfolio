@@ -80,6 +80,11 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .projects{
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 1400px){
+    .projects{
       grid-template-columns: 1fr 1fr;
     }
   }
@@ -87,6 +92,11 @@ export const Container = styled.section`
   @media (max-width: 740px){
     .projects{
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 420px){
+    .project{
+      max-width: 75%;
     }
   }
 `
