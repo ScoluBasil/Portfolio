@@ -35,7 +35,6 @@ export function Project() {
                 <li>MongoDB</li>
                 <li>GraphQl</li>
                 <li>React</li>
-                <li>Ant Design</li>
               </ul>
             </footer>
           </div>
@@ -62,7 +61,6 @@ export function Project() {
                 <li>ASP.NET Core Microservices</li>
                 <li>ASP.NET MVC</li>
                 <li>SQL Server</li>
-                <li>MoqcFramework</li>
                 <li>AWS</li>
               </ul>
             </footer>
@@ -120,7 +118,6 @@ export function Project() {
                 <li>jQuery</li>
                 <li>CSS</li>
                 <li>HTML</li>
-                <li>Bootstrap</li>
               </ul>
             </footer>
           </div>

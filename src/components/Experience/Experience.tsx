@@ -3,6 +3,7 @@ import AT from "../../assets/AT.svg";
 import OT from "../../assets/OT.svg";
 import QB from "../../assets/QB.svg";
 import XE from "../../assets/XE.svg";
+import Experienceillustration from "../../assets/Experienceillustration.svg";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 interface TimelineItemProps {
@@ -78,6 +79,11 @@ export function Experience()
           </Timeline>
           </div>
         </div>
+        </ScrollAnimation>
+      </div>
+      <div className="experience-image">
+      <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
+          <img src={Experienceillustration} alt="Basil Jose" />
         </ScrollAnimation>
       </div>
     </Container>

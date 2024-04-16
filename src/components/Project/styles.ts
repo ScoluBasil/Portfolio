@@ -94,9 +94,9 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
     }
   }
-  @media (max-width: 420px){
+  @media (max-width: 540px){
     .project{
-      max-width: 75%;
+      max-width: 75% !important;
     }
   }
 `

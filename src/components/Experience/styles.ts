@@ -51,7 +51,7 @@ export const Container = styled.section`
     margin: 0px;
     padding: 0px;
   }
-  .Experience-image{
+  .experience-image{
     text-align: center;
    img{
      margin-top: 2rem;
@@ -63,6 +63,8 @@ export const Container = styled.section`
      }
    }
   }
+
+  
 
   @media (max-width: 960px){
     display: block;
