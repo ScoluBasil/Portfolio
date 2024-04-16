@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.039bf95e.css",
-    "main.js": "/Portfolio/static/js/main.84c8b3db.js",
+    "main.js": "/Portfolio/static/js/main.3fa79125.js",
     "static/media/Basil.png": "/Portfolio/static/media/Basil.ecc600f0bb3563ee73c0.png",
+    "static/media/ME.svg": "/Portfolio/static/media/ME.7a49ef24dd8dbae2587699fe98cbe55b.svg",
+    "static/media/ICET.svg": "/Portfolio/static/media/ICET.50abf4f84fee0df079c9b82aa271680e.svg",
     "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/OT.svg": "/Portfolio/static/media/OT.fc4f9319e1884f484f9a7af878039721.svg",
     "static/media/QBCV-BasilJose-5495.pdf": "/Portfolio/static/media/QBCV-BasilJose-5495.3c11feba8d8d9811f117.pdf",
@@ -25,10 +27,10 @@
     "static/media/microsoft.svg": "/Portfolio/static/media/microsoft.c10ce0677146f99ec3cc3b7454e76674.svg",
     "static/media/azure.svg": "/Portfolio/static/media/azure.ff5a9fe776f2b480d91804ecc122fe3b.svg",
     "main.039bf95e.css.map": "/Portfolio/static/css/main.039bf95e.css.map",
-    "main.84c8b3db.js.map": "/Portfolio/static/js/main.84c8b3db.js.map"
+    "main.3fa79125.js.map": "/Portfolio/static/js/main.3fa79125.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.84c8b3db.js"
+    "static/js/main.3fa79125.js"
   ]
 }
