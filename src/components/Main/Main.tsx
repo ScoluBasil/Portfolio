@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Project } from "../Project/Project";
+import{Achievements} from "../Achievements/Achievements"
 import NetCore from "../../assets/NET-core.svg"
 import htmlIcon from "../../assets/html-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
@@ -231,6 +232,7 @@ export function Main() {
       <About/>
       <Experience/>
       <Project/>
+      <Achievements/>
       <Contact/>
     </Container>
   );
