@@ -11,7 +11,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Basil, With over five years of software development expertise, I excel as a full stack web developer specializing in .NET technologies. My proficiency extends to analysis, design, development, and deployment of web applications, complemented by a deep understanding of version control and relational databases.
+            Hi there! I'm Basil, With over Six years of software development expertise, I excel as a full stack web developer specializing in .NET technologies. My proficiency extends to analysis, design, development, and deployment of web applications, complemented by a deep understanding of version control and relational databases.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>

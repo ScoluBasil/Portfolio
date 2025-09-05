@@ -68,10 +68,12 @@ export const Container = styled.section`
         margin-top: auto;
         .tech-list{
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
-          gap: 2rem;
+          gap: 1rem;
           font-size: 1.4rem;
           opacity: 0.6;
+          list-style: none;
         }
       }
 
